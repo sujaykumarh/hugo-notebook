@@ -1,0 +1,50 @@
+version: '3'
+
+networks:
+  notebook_hugo_net:
+    driver: bridge
+
+
+services:
+
+  hugo:
+    image: klakegg/hugo:ext-alpine
+    container_name: ${DK_HUGO_NAME:-notebook_hugo}
+    user: ${CURRENT_USER:-1000:1000}
+    command: help
+    volumes:
+      - ${SRC_DIR:-./}:/src/notebook
+
+  hugoExample:
+    image: klakegg/hugo:ext-alpine
+    container_name: ${DK_HUGO_NAME:-notebook_hugo}_example
+    user: ${CURRENT_USER:-1000:1000}
+    working_dir: "/src/notebook/exampleSite"
+    command: help
+    volumes:
+      - ${SRC_DIR:-./}:/src/notebook
+
+  server:
+    image: klakegg/hugo:ext-alpine
+    container_name: ${DK_HUGO_NAME:-notebook_hugo}_server
+    user: ${CURRENT_USER:-1000:1000}
+    restart: unless-stopped
+    working_dir: "/src/notebook/exampleSite"
+    command: ["server", "--port", "${HUGO_PORT:-1313}", "--liveReloadPort", "${HUGO_PORT:-1313}", "--themesDir", "../..", "--watch" , "-D"]
+    volumes:
+      - ${SRC_DIR:-./}:/src/notebook
+    networks: 
+      - notebook_hugo_net
+    ports:
+      - ${HUGO_PORT:-1313}:${HUGO_PORT:-1313}
+
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: notebook_hugo_nginx
+    restart: "no"
+    working_dir: /usr/share/nginx/html
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+    ports:
+      - ${NGINX_PORT:-8899}:80
