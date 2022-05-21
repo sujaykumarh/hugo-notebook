@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/notebook-hugo/assets/sw.js",{scope:"/notebook-hugo/"})
