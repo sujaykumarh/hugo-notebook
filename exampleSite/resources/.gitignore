@@ -1,0 +1,7 @@
+## .gitignore file is Created by @sujaykumarh/start v0.1.1 
+## Source https://github.com/sujaykumarh/start 
+
+## Self gitignore
+*
+!.gitignore
+!.gitkeep
