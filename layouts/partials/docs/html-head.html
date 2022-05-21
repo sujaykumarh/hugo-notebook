@@ -32,14 +32,19 @@ https://github.com/sujaykumarh/hugo-notebook
 {{- if default true .Site.Params.BookSearch -}}
   {{- $searchJSFile := printf "assets/%s.search.js" .Language.Lang }}
   {{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
-  <script defer src="{{ "assets/flexsearch.min.js" | relURL }}"></script>
+  {{/*  <script defer src="{{ "assets/flexsearch.min.js" | relURL }}"></script>  */}}
+
+  {{/*  TODO: add flexsearch 0.7.x support  */}}
+  {{/*  <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.x/dist/flexsearch.bundle.js"></script> */}}
+
+  <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.6.x/dist/flexsearch.min.js" crossorigin="anonymous"></script>
   <script defer src="{{ $searchJS.RelPermalink }}" {{ template "integrity" $searchJS }}></script>
 {{ end -}}
 
-{{- if .Site.Params.BookServiceWorker -}}
+{{/*  {{- if .Site.Params.BookServiceWorker -}}
   {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "assets/sw.js" . | resources.Minify | resources.Fingerprint }}
   <script defer src="{{ $swJS.RelPermalink }}" {{ template "integrity" $swJS }}></script>
-{{ end -}}
+{{ end -}}  */}}
 
 {{- template "_internal/google_analytics.html" . -}}
 

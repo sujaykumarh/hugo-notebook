@@ -1,5 +1,11 @@
 # KaTeX
 
+<!-- katex debug -->
+<span class="katex">
+  <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
+  <span class="katex-version rule">KaTeX stylesheet version: </span>
+</span>
+
 KaTeX shortcode let you render math typesetting in markdown document. See [KaTeX](https://katex.org/)
 
 ## Example
