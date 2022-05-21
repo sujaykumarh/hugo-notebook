@@ -102,9 +102,10 @@ tmp
 #############
 
 # build dir
-# /dist
-# /src/dist
-# /src/public
+/dist
+/public
+/exampleSite/dist
+/exampleSite/public
 
 # hugo
 .hugo_build.lock

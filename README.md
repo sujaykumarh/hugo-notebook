@@ -18,9 +18,9 @@ documentation theme for hugo; fork of [alex-shpak/hugo-book](https://github.com/
 
 <!-- ⬛ ✅ -->
 
-* ⬛ clean up the folder structure
+* ✅ clean up the folder structure
+* ✅ docker based development
 * ⬛ clean up build directory use cdn instead of local
-* ⬛ docker based development
 * ⬛ modify theme
 * ⬛ add new stuff
 
