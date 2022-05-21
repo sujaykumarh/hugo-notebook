@@ -11,5 +11,5 @@ echo "🔨 Building Hugo Site"
 # --cleanDestinationDir     remove files from destination not found in static directories
 # -v                        verbose mode
 
-CURRENT_UID="$(id -u):$(id -g)" docker compose run --rm hugoExample build --themesDir ../.. --gc -v --cleanDestinationDir -d ../dist $@
+CURRENT_USER="$(id -u):$(id -g)" docker compose run --rm hugoExample build --themesDir ../.. --gc -v --cleanDestinationDir -d ../dist $@
 echo "✅ build complete"
