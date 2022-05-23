@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sujaykumarh.github.io/notebook-hugo/ru/categories/</loc>
+    <loc>https://notebook-demo.sujaykumarh.com/ru/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sujaykumarh.github.io/notebook-hugo/categories/"
+                href="https://notebook-demo.sujaykumarh.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://sujaykumarh.github.io/notebook-hugo/zh/categories/"
+                href="https://notebook-demo.sujaykumarh.com/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://sujaykumarh.github.io/notebook-hugo/ru/categories/"
+                href="https://notebook-demo.sujaykumarh.com/ru/categories/"
                 />
   </url><url>
-    <loc>https://sujaykumarh.github.io/notebook-hugo/ru/tags/</loc>
+    <loc>https://notebook-demo.sujaykumarh.com/ru/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sujaykumarh.github.io/notebook-hugo/tags/"
+                href="https://notebook-demo.sujaykumarh.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://sujaykumarh.github.io/notebook-hugo/zh/tags/"
+                href="https://notebook-demo.sujaykumarh.com/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://sujaykumarh.github.io/notebook-hugo/ru/tags/"
+                href="https://notebook-demo.sujaykumarh.com/ru/tags/"
                 />
   </url><url>
-    <loc>https://sujaykumarh.github.io/notebook-hugo/ru/</loc>
-    <lastmod>2022-05-21T19:55:10+05:30</lastmod>
+    <loc>https://notebook-demo.sujaykumarh.com/ru/</loc>
+    <lastmod>2022-05-23T20:39:54+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://sujaykumarh.github.io/notebook-hugo/"
+                href="https://notebook-demo.sujaykumarh.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://sujaykumarh.github.io/notebook-hugo/zh/"
+                href="https://notebook-demo.sujaykumarh.com/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://sujaykumarh.github.io/notebook-hugo/ru/"
+                href="https://notebook-demo.sujaykumarh.com/ru/"
                 />
   </url>
 </urlset>
