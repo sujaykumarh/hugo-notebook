@@ -25,3 +25,6 @@ indent_size = 2
 
 [*.{md,mdx}]
 indent_size = 4
+
+[CNAME]
+insert_final_newline = false

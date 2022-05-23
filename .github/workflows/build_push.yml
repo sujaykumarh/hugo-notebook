@@ -43,7 +43,7 @@ jobs:
 
       - name: 🔨 Build Hugo Site
         run: |
-          sh build.sh --baseUrl https://sujaykumarh.github.io/notebook-hugo/
+          sh build.sh --baseUrl https://notebook-demo.sujaykumarh.com
 
       - name: ℹ️ Setup files in dist
         run: |
