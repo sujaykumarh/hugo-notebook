@@ -2,8 +2,7 @@
 
 # Notebook theme for Hugo
 
-
-documentation theme for hugo; fork of [alex-shpak/hugo-book](https://github.com/alex-shpak/hugo-book)
+clean simple documentation theme for hugo
 
 [![Hugo](https://img.shields.io/badge/hugo-v0.68-blue.svg)](https://gohugo.io)
 [![demo](https://img.shields.io/badge/live-demo-brightgreen.svg)](https://notebook-demo.sujaykumarh.com/)
@@ -14,11 +13,13 @@ documentation theme for hugo; fork of [alex-shpak/hugo-book](https://github.com/
 
 [![Screenshot](https://raw.githubusercontent.com/sujaykumarh/hugo-notebook/main/images/screenshot.png)](https://notebook-demo.sujaykumarh.com/)
 
+this project is a fork of [alex-shpak/hugo-book](https://github.com/alex-shpak/hugo-book) with some changes and additions.
+
 </div>
 
 <br>
 
-**Whats different / new?**
+## ✨ **Whats new?**
 
 <!-- ⬛ ✅ -->
 
@@ -32,12 +33,25 @@ documentation theme for hugo; fork of [alex-shpak/hugo-book](https://github.com/
 * ⬛ restructure config
 * ⬛ use data files insted of everything in config
 
+for more details read the [CHANGELOG.md](https://github.com/sujaykumarh/hugo-notebook/blob/main/CHANGELOG.md) file.
 
 <br>
+
+## 🤝 Contributing
+
+thanks for taking the time to contribute! 🎉
+
+all **contributions** are welcome read [Contributing Guide](https://github.com/sujaykumarh/.github/blob/main/.github/CONTRIBUTING.md) before you start.
+
+<br>
+
+## 📄 License
 
 Licensed under the [MIT License](https://github.com/sujaykumarh/hugo-notebook/blob/main/LICENSE)
 
 
 <br>
+
+## 📃 Credits
 
 🎉 Thanks to [alex-shpak/hugo-book](https://github.com/alex-shpak/hugo-book) for all the original work.
