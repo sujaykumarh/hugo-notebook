@@ -1,0 +1,30 @@
+# theme.toml for hugo theme
+# see https://github.com/gohugoio/hugoThemesSiteBuilder#theme-configuration for example
+
+name = "Notebook"
+license = "MIT"
+licenselink = "https://github.com/sujaykumarh/hugo-notebook/blob/main/LICENSE"
+description = "Simple documentation theme for Hugo"
+
+# The home page of the theme, where the source can be found.
+homepage = "https://github.com/sujaykumarh/hugo-notebook"
+
+# If you have a running demo of the theme.
+demosite = "https://notebook-demo.sujaykumarh.com/"
+
+tags = ["responsive", "clean", "documentation", "docs", "flexbox", "search", "mobile", "multilingual", "disqus"]
+features = []
+
+# minimum version of hugo
+min_version = "0.68"
+
+# If the theme has a single author
+[author]
+  name = "Sujaykumar Hublikar"
+  homepage = "https://sujaykumarh.com/"
+
+# If porting an existing theme
+[original]
+  name = "Alex Shpak"
+  homepage = "https://github.com/alex-shpak/"
+  repo = "https://github.com/alex-shpak/hugo-book"
