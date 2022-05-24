@@ -21,10 +21,10 @@ min_version = "0.68"
 # If the theme has a single author
 [author]
   name = "Sujaykumar Hublikar"
-  homepage = "https://sujaykumarh.com/"
+  homepage = "https://github.com/sujaykumarh"
 
 # If porting an existing theme
 [original]
   name = "Alex Shpak"
-  homepage = "https://github.com/alex-shpak/"
+  homepage = "https://github.com/alex-shpak"
   repo = "https://github.com/alex-shpak/hugo-book"
