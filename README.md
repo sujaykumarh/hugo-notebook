@@ -5,10 +5,11 @@
 
 documentation theme for hugo; fork of [alex-shpak/hugo-book](https://github.com/alex-shpak/hugo-book)
 
-[![Hugo](https://img.shields.io/badge/hugo-v0.68-brightgreen.svg)](https://gohugo.io)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/sujaykumarh/hugo-notebook/hugo-test/main?label=tests)
+[![Hugo](https://img.shields.io/badge/hugo-v0.68-blue.svg)](https://gohugo.io)
 [![demo](https://img.shields.io/badge/live-demo-brightgreen.svg)](https://notebook-demo.sujaykumarh.com/)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg?logo=github)](https://github.com/sujaykumarh/hugo-notebook/blob/main/LICENSE)
+[![tests](https://img.shields.io/github/workflow/status/sujaykumarh/hugo-notebook/hugo-test/main?label=test)](https://github.com/sujaykumarh/hugo-notebook/actions)
+[![build](https://img.shields.io/github/workflow/status/sujaykumarh/hugo-notebook/build-push/main?label=build)](https://github.com/sujaykumarh/hugo-notebook/actions)
 <!-- [![github](https://img.shields.io/github/stars/sujaykumarh/hugo-notebook?style=social)]() -->
 
 [![Screenshot](https://raw.githubusercontent.com/sujaykumarh/hugo-notebook/main/images/screenshot.png)](https://notebook-demo.sujaykumarh.com/)
