@@ -2,7 +2,7 @@
 
 baseURL = 'https://example.com/'
 title = 'Hugo Notebook'
-theme = 'notebook'
+theme = 'hugo-notebook'
 
 # Book configuration
 disablePathToLower = true
