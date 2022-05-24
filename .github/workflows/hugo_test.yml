@@ -1,0 +1,56 @@
+name: hugo-test
+
+on: 
+  # manual trigger
+  workflow_dispatch:
+
+  # auto trigger
+  push:
+    branches:
+      - "main"
+
+    paths:
+      - "archtypes/**/*"
+      - "assets/**/*"
+      - "exampleSite/**/*"
+      - "i18n/**/*"
+      - "layouts/**/*"
+      - "static/**/*"
+
+  pull_request:
+    branches:
+      - "main"
+
+    paths:
+      - "archtypes/**/*"
+      - "assets/**/*"
+      - "exampleSite/**/*"
+      - "i18n/**/*"
+      - "layouts/**/*"
+      - "static/**/*"
+
+    
+
+jobs:
+  hugo:
+    name: hugo-test
+    if: ${{ github.repository == 'sujaykumarh/hugo-notebook' }}
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        hugo-version:
+          - 'latest'
+          - '0.68.0'
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ matrix.hugo-version }}
+          extended: true
+
+      - name: Run Hugo
+        working-directory: exampleSite
+        run: hugo --themesDir ../..
