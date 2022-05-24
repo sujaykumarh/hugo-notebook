@@ -5,5 +5,16 @@
     <link>https://notebook-demo.sujaykumarh.com/docs/</link>
     <description>Recent content in Docs on Hugo Notebook</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://notebook-demo.sujaykumarh.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Theme</title>
+      <link>https://notebook-demo.sujaykumarh.com/docs/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://notebook-demo.sujaykumarh.com/docs/about/</guid>
+      <description>Introduction #  This theme is a fork of alex-shpak/hugo-book with some changes and additions.
+Whats new? or What&amp;rsquo;s changed?
+ ✅ clean up the folder structure ✅ docker based development ✅ clean up build directory use cdn instead of local and more&amp;hellip;  for more details read the CHANGELOG.md file.</description>
+    </item>
+    
   </channel>
 </rss>
